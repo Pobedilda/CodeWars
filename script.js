@@ -31,10 +31,19 @@
 // console.log(doubleEveryOther(arr));
 
 //Square(n) Sum
-function squareSum(numbers){
-    let sum = 0;
-    for(let i = 0; i < numbers.length; i++){
-        sum += numbers[i] ** 2;
+// function squareSum(numbers){
+//     let sum = 0;
+//     for(let i = 0; i < numbers.length; i++){
+//         sum += numbers[i] ** 2;
+//     }
+//     return sum;
+// }
+//Is he gonna survive?
+function hero(bullets, dragons){
+    let bulletsNeeded = dragons * 2;
+    if(bullets >= bulletsNeeded){
+        return true;
+    }else{
+        return false;
     }
-    return sum;
 }
