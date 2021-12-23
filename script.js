@@ -1,5 +1,6 @@
 // //Vowel remover
 //const shortcut = (s) => s.replace(/[aeiou]/g,'');
+
 // Student's Final Grade
 // function finalGrade (exam, projects) {
 //     if(exam > 90 || projects > 10){
@@ -12,6 +13,7 @@
 //         return 0;
 //     }
 // }
+
 //doubleEveryOther
 // let arr = [1,2,3,4]
 // function doubleEveryOther(a) {
@@ -27,3 +29,12 @@
 //     //return b;
 // }
 // console.log(doubleEveryOther(arr));
+
+//Square(n) Sum
+function squareSum(numbers){
+    let sum = 0;
+    for(let i = 0; i < numbers.length; i++){
+        sum += numbers[i] ** 2;
+    }
+    return sum;
+}
