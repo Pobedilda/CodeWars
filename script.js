@@ -1,6 +1,3 @@
-// //Vowel remover
-//const shortcut = (s) => s.replace(/[aeiou]/g,'');
-
 // Student's Final Grade
 // function finalGrade (exam, projects) {
 //     if(exam > 90 || projects > 10){
@@ -39,11 +36,16 @@
 //     return sum;
 // }
 //Is he gonna survive?
-function hero(bullets, dragons){
-    let bulletsNeeded = dragons * 2;
-    if(bullets >= bulletsNeeded){
-        return true;
-    }else{
-        return false;
-    }
+// function hero(bullets, dragons){
+//     let bulletsNeeded = dragons * 2;
+//     if(bullets >= bulletsNeeded){
+//         return true;
+//     }else{
+//         return false;
+//     }
+// }
+//vovel remover
+function shortcut(string){
+    const vowels = /[aeiou]+/g;
+    return string.replace(vowels, "");
 }
