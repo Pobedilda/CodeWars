@@ -54,3 +54,12 @@ function DNAtoRNA(dna) {
     // create a function which returns an RNA sequence from the given DNA sequence
     return dna.replace(/T/g, "U");
 }
+
+
+//Descending Order
+function descendingOrder(n){
+
+    var n = n.toString().split('');
+    var descendingNumber = Number(n.sort((a, b)=> b-a).join(''));
+    return descendingNumber;
+}
