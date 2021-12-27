@@ -63,3 +63,8 @@ function descendingOrder(n){
     var descendingNumber = Number(n.sort((a, b)=> b-a).join(''));
     return descendingNumber;
 }
+
+//Number of Divisions
+const divisions = (n, divisor) => {
+    return Math.floor(Math.log(n)/Math.log(divisor))
+};
